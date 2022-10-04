@@ -80,6 +80,8 @@ public class UKL {
         System.out.println("Tagihan\t:Rp." + iTagihan+",-");
     }*/
 
+
+    //UKL Bu Amalia No. 1
     public static String formatRupiah(double uang) {
         double harga = uang;
 
