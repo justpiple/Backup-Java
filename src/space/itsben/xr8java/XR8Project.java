@@ -13,11 +13,20 @@ public class XR8Project {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         // code application logic here
         System.out.println("Kusindra Aji Rabbany");
         System.out.println("XRPL8");
         System.out.println("SMK TELKOM MALANG");
+    }*/
+
+    public static void main(String[] args) {
+        int bilanganAwal = 3;
+        for (int i=0;i<6;i++){
+            bilanganAwal+=3;
+            System.out.println("Bilangan ke "+(i+2) +": "+bilanganAwal);
+        }
     }
+
 
 }

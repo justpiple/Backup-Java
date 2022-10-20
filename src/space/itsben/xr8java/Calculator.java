@@ -23,7 +23,6 @@ public class Calculator {
 
             System.out.print("Masukkan kode operator: ");
             operator = sc.nextInt();
-
             //Seleksi kondisi
             switch (operator){
                 case 1:

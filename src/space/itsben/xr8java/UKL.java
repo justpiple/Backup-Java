@@ -96,13 +96,15 @@ public class UKL {
         return kursIndonesia.format(harga);
     }
     static Scanner Input = new Scanner(System.in);
+
     public static String getInput(String params){
         System.out.print(params+": ");
         return Input.nextLine();
     }
+
     public static void main(String[] args) {
         //Data pelanggan
-        String[] namaPelanggan ={"Galuh", "Indro", "Jedi", "Kanu"};
+        String[] namaPelanggan = {"Galuh","Indro","Jedi","Kanu"};
         String[] alamatPelanggan ={"Sawojajar", "Kedung kandang", "Ijen", "Dinoyo"};
         int[] golonganPelanggan ={1, 3, 2, 3};
 
